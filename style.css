@@ -1,0 +1,115 @@
+			.text1{
+				font-size: 14pt;
+				color: red; 
+				font-family: "Calibri"
+			}
+			font{
+				font-size: 14pt; 
+				color: green; 
+				font-family: "Calibri"
+				}
+			font.text2{
+				font-size: 14pt; 
+				color: blue; 
+				font-family: "Calibri"
+				}
+			p#txt1 {
+				font-size: 14pt; 
+				color: gold; 
+				font-family: "Calibri"
+				}
+			h1,h2,h3,h4,h5,h6 {
+				font-size: 18pt; 
+				color: purple; 
+				font-family: "Arial";
+				background-color: rgb(48,140,233);
+				}
+				
+			p {
+				text-decoration: normal;
+				text-align: justify;
+				text-indent: 10mm;
+				letter-spacing: 0.5mm;
+				text-transform: ;
+				white-space: normal;
+				margin-left: 20%;
+				margin-right: 20%;
+				margin-top: 0;
+				/*background-color: rgb(48,140,233);*/
+			}
+			.table1 {
+				/*border-left-style: solid;
+				border-right-style: dotted;
+				border-top-style: solid;
+				border-bottom-style: double;
+				border-left-width: 2mm;
+				border-left-color: #000080;*/
+				border: blue medium solid;
+				
+			}
+			body{
+				/*background-image: url(images/line_UFO.png);
+				background-repeat: repeat-y;
+				background-attachment: scroll;
+				background-position: 20% 20%;*/
+			}
+			div div {
+				border: 2px solid green;
+			}
+			label {
+				border: 2px solid blue;
+				display: inline-block;
+			}
+			#divstyle{
+				max-height: 100px;
+				max-width: 100px;
+				overflow: auto;
+				display: inline-block;
+			}
+			#shapka{
+				display: inline-block;
+				border: 1px solid red;
+				max-width: 100%;
+				max-height: 20px;
+				min-width: 20%;
+			}
+			#panel1{
+				float: left;
+				display: inline-block;
+				border: 1px solid red;
+				max-width: 30%;
+				max-height: 200px;
+				overflow: auto;
+			}
+			#panel2{
+				float: right;
+				display: inline-block;
+				border: 1px solid red;
+				max-width: 30%;
+				max-height: 200px;
+				overflow: auto;
+			}
+			#underline1{
+				text-decoration: underline;
+			}
+			#centerobj{
+				float: left;
+				margin-left: 20%;
+				min-height: 5%;
+				max-height: 100%;
+				max-width: 60%;
+				text-align: justify;
+				border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+				padding: 10px;
+			}
+			#skryvashka{ 
+				float: left;
+				margin-left: 47%;
+				min-height: 1%;
+				max-height: 100%;
+				min-width: 6%; 
+				max-width: 60%;
+				text-align: center;
+				border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+				padding: 10px;
+			}
